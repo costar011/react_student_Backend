@@ -1,0 +1,8 @@
+type Students {
+  _id: ID!
+  name: String!
+  birth: String!
+  age: String!
+  grade: String!
+  mobile: String!
+}

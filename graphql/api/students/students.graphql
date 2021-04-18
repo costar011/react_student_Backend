@@ -1,0 +1,19 @@
+type Query {
+  name: String!
+  birth: String!
+  age: String!
+  grade: String!
+  mobile: String!
+  school: String!
+}
+
+type Mutation {
+  registerStudents(
+    name: String!
+    birth: String!
+    age: String!
+    grade: String!
+    mobile: String!
+    school: String!
+  ): Boolean!
+}
