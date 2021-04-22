@@ -1,4 +1,6 @@
 import Students from "../../model/Students";
+import nodemailer from "nodemailer";
+import smtpPool from "nodemailer-smtp-pool";
 
 export default {
   Query: {},
